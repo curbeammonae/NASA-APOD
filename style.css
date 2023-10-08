@@ -4,3 +4,53 @@ html {
     font-family: 'Space Mono', monospace;
     color: white;
   }
+
+  iframe{
+    border: none;
+  }
+  
+  body{
+  background-image: url('https://www.nasa.gov/sites/default/files/thumbnails/image/samplecollection-2crew-xeva-final2.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+  }
+  
+  h3{
+    font-size: 1rem;
+  }
+  
+  h1{
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  
+  
+  #pic, #vid{
+   
+        height: 25rem;
+     border-radius: 11px;
+    
+  }
+  
+  #vid{
+     width: 44rem;
+  }
+  
+  section{
+    background-color: rgba(0, 0, 0, 0.37)
+  ;
+    text-align: center;
+    border-radius: 12px;
+  margin-left: 5rem;
+      height: 44rem;
+      margin-right: 5rem;
+  }
+  
+  
+  
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
