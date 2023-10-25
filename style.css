@@ -1,6 +1,5 @@
 html {
-    height: 100%;
-    width: 100%;
+    
     font-family: 'Space Mono', monospace;
     color: white;
   }
@@ -10,9 +9,10 @@ html {
   }
   
   body{
-  background-image: url('https://www.nasa.gov/sites/default/files/thumbnails/image/samplecollection-2crew-xeva-final2.png');
+  background-image: url('/jeremy-thomas-E0AHdsENmDg-unsplash.jpg');
    background-size: cover;
    background-repeat: no-repeat;
+   
   
   }
   
