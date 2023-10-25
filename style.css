@@ -2,18 +2,17 @@ html {
     
     font-family: 'Space Mono', monospace;
     color: white;
+   background-image: url('/jeremy-thomas-E0AHdsENmDg-unsplash.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
   }
 
   iframe{
     border: none;
   }
   
-  body{
-  background-image: url('/jeremy-thomas-E0AHdsENmDg-unsplash.jpg');
-   background-size: cover;
-   background-repeat: no-repeat;
-   
-  
+  .section-container{
+    padding-bottom: 2rem;
   }
   
   h3{
@@ -29,7 +28,7 @@ html {
   #pic, #vid{
    
         height: 25rem;
-     border-radius: 11px;
+     border-radius: 0.688rem;
     
   }
   
@@ -41,7 +40,7 @@ html {
     background-color: rgba(0, 0, 0, 0.37)
   ;
     text-align: center;
-    border-radius: 12px;
+    border-radius: 0.75rem;
   margin-left: 5rem;
       height: 44rem;
       margin-right: 5rem;
@@ -65,8 +64,8 @@ html {
   .dropbtn {
       background-color: #000000;
       color: white;
-      padding: 16px;
-      font-size: 16px;
+      padding: 1rem;
+      font-size: 1rem;
       border: none;
       cursor: pointer;
   }
@@ -81,8 +80,8 @@ html {
       display: none;
       position: absolute;
       background-color: (0, 0, 0, 0.37);
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      min-width: 10rem;
+      box-shadow: 0px .5rem 1rem 0px rgba(0,0,0,0.2);
   }
   
   /* Links inside the dropdown */
